@@ -1,0 +1,2040 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(241, 241, 241);
+}
+.menu{
+    display: flex;
+    margin-top: 20px;
+}
+.menu>*{
+    flex: 1;
+}
+.orderlist{
+    list-style: none;
+    display: flex;
+    margin-left: 100px;
+}
+.orderlist li a{
+    text-decoration: none;
+    padding: 20px;
+    text-transform: capitalize;
+    color: black;
+}
+.orderlist1{
+    margin-left: 50px;
+    list-style: none;
+    display: flex;
+}
+.orderlist1 li a{
+    text-decoration: none;
+    padding: 20px;
+    text-transform: capitalize;
+    color: black;
+}
+/*2nd step*/
+.menubar{
+    display: flex;
+    position: relative;
+}
+.menubar>*{
+    flex: 1;
+}
+.order{
+    display: flex;
+    list-style: none;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.order li:hover{
+    background-color: #fd5c63;
+}
+
+.he3{
+    text-transform: capitalize;
+    padding-top: 13px;
+}
+
+.supscript{
+    background-color: #fd5c63;
+    color: aliceblue;
+    border-radius: 2px;
+    font-size: 9px;
+}
+
+.circle1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(182, 94, 255);
+    position: absolute;
+    top: 22px;
+    left: 137px;
+}
+.circle2{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 43px;
+    left: 146px;
+}
+.order li {
+padding: 20px;
+text-transform: capitalize;
+}
+.order li a{
+    text-decoration: none;
+    color: black;
+}
+.menubar2{
+    display: flex;
+    margin-top: 30px;
+}
+.font20a{
+    padding-left: 360px;
+}
+.font20b{
+    padding-left: 30px;
+}
+.supd{
+    font-size: 7px;
+    padding: 2px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 50%;
+    color: white;
+}
+
+
+.supw{
+    font-size: 7px;
+    padding: 2px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 50%;
+    color: white;
+}
+.para{
+    position: absolute;
+    right: 155px;
+    top: 18px;
+}
+.para1{
+    position: absolute;
+    right: 150px;
+    top: 37px;
+}
+/*3 rd step*/
+.input1{
+    margin-top: 30px;
+    background-color: rgb(45, 7, 82);
+    height: 100px;
+    display: flex;
+    position: relative;
+}
+.input1>*{
+    flex: 1;
+}
+.input4{
+    width: 250px;
+    height: 50px;
+    background-color: #fd5c63;
+    margin-top: 50px;
+    margin-left: 115px;
+    border-radius: 5px 5px 0px 0px;
+}
+.input4 h4{
+    color: aliceblue;
+    text-transform: capitalize;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.input4 p{
+    padding-top: 5px;
+    color: aliceblue;
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    top: 45px;
+    right: 550px;
+}
+.search{
+    padding: 10px 100px;
+    margin-left: 100px;
+    border: none;
+    margin-top: 35px;
+    text-transform: capitalize;
+    border-radius: 5px 0px 0px 5px;
+}
+.input3 a{
+    text-decoration: none;
+    padding: 9px;
+    background-color: #fd5c63;
+    color: white;
+    position: absolute;
+    top: 34.50px;
+    border-radius: 0px 5px 5px 0px;
+    text-transform: capitalize;
+}
+
+/* 4th step*/
+.card{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.small__card{
+    width: 250px;
+    height: 420px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 115px;
+    border: 1px solid rgb(199, 160, 255);
+}
+.card__text ul li{
+    list-style: none;
+}
+.card__text ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
+.cardimg img{
+     width: 800px;
+     height: 400px;
+     margin-right: 90px;
+     margin-top: 20px;
+}
+.list1{
+    margin-left: 10px;
+}
+
+.lol li:hover .menuhoverbeauty{
+    visibility: visible;
+}
+.menuhoverbeauty{
+   position: absolute; 
+   left: 380px;
+   top: 15px;
+   visibility: hidden;
+}
+.menuhoverbeauty li{
+    padding: 8px;
+}
+
+.cevron i{
+    padding-left: 120px;
+}
+.cevron1{
+    padding-left: 100px;
+}
+.cevron2{
+    padding-left: 55px;
+}
+.cevron3{
+    padding-left: 55px;
+}
+
+.fa-face-smile{
+    padding: 10px;
+    color: black;
+}
+.list2{
+    margin-left: 10px;
+}
+.list2 i{
+    padding: 10px;
+    color: black;
+}
+.menuhoverelectric{
+    position: absolute; 
+    left: 380px;
+    top: 45px;
+    visibility: hidden;
+}
+.lol li:hover .menuhoverelectric{
+    visibility: visible;
+}
+.menuhoverelectric li{
+    padding: 8px;
+}
+.list3{
+    margin-left: 10px;
+}
+.list3 i{
+    color: black;
+    padding: 10px;
+}
+.womenhovermenu{
+    position: absolute; 
+    left: 380px;
+    top: 85px;
+    visibility: hidden;
+}
+.womenhovermenu li{
+    padding: 8px;
+}
+.lol li:hover .womenhovermenu{
+    visibility: visible;
+}
+.list4{
+    margin-left: 10px;
+}
+.list4 i{
+    padding: 10px;
+    color: black;
+}
+.list5{
+    margin-left: 10px;
+}
+.list5 i{
+    padding: 10px;
+    color: black;
+}
+.list6{
+    margin-left: 10px;
+}
+.list6 i{
+    padding: 10px;
+    color: black;
+}
+.list7{
+    margin-left: 10px;
+}
+.list7 i{
+    padding: 10px;
+    color: black;
+}
+.list8{
+    margin-left: 10px;
+}
+
+.list8 i{
+    padding: 10px;
+    color: black;
+}
+.menu__room{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 380px;
+    background-color: rgb(213, 255, 241);
+    position: absolute;
+    left: 367px;
+    top: 5px;
+    z-index: 1;
+    visibility: hidden;
+}
+.lol li:hover .menu__room{
+    visibility: visible;
+}
+.roomhovermenu{
+    margin-left: 10px;
+}
+.roomhovermenu h4{
+    padding-top: 15px;
+    padding-left: 6px;
+    text-transform: capitalize;
+}
+.roomhovermenu li{
+    padding: 6px;
+}
+.roomhovermenu1 h4{
+    padding-top: 15px;
+    padding-left: 6px;
+    text-transform: capitalize;
+}
+.roomhovermenu1 li{
+    padding: 6px;
+}
+.roomhovermenu2{
+    margin-right: 30px;
+}
+.roomhovermenu2 h4{
+    padding-top: 15px;
+    padding-left: 6px;
+    text-transform: capitalize;
+}
+.roomhovermenu2 li{
+    padding: 6px;
+}
+.list9{
+    margin-left: 10px;
+}
+.list9 i{
+    padding: 10px;
+    color: black;
+}
+.list10{
+    margin-left: 10px;
+}
+.list10 i{
+    padding: 10px;
+    color: black;
+}
+.list11{
+    margin-left: 10px;
+}
+.list11 i{
+    padding: 10px;
+    color: black;
+}
+
+.imgcard__text{
+    position: absolute;
+    top: 10rem;
+    left: 35rem;
+}
+.imgcard__text a{
+    padding: 5px 20px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.imgcard__text h3{
+    padding-top: 20px;
+    font-size: 25px;
+    color: rgb(79, 45, 112);
+}
+.imgcard__text h1{
+    padding-top: 10px;
+}
+.imgcard__text button{
+    margin-top: 20px;
+    border: none;
+    background-color: #fd5c63;
+    padding: 7px 15px;
+    border-radius: 20px;
+    color: white;
+}
+
+/* 5th step*/
+.brand__img{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.zara{
+    margin-left: 60px;
+}
+
+/*-----*/
+.middle{
+    margin-top: 20px;
+    position: relative;
+}
+.middle h3{
+    padding-left: 9rem;
+}
+.dot{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(102, 7, 180);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 1px;
+    left: 7rem;
+}
+.hra{
+    margin-top: 10px;
+    width: 1150px;
+    margin-left: 100px;
+}
+
+/*6th step*/
+.product{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.product__dashbord{
+    margin-left: 100px;
+    width: 350px;
+    height: 705px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.product__dashbord h3{
+    padding-top: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.racktangle{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.racktangle p{
+    padding-top: 5px;
+}
+.racktangle1{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+}
+.racktangle1 p{
+    padding-top: 5px;
+}
+.racktangle2{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+}
+.racktangle2 p{
+    padding-top: 5px;
+}
+.racktangle3{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+}
+.racktangle3 p{
+    padding-top: 5px;
+}
+
+.dotc1{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(247, 255, 255);
+    position: absolute;
+    left: 398px;  
+    top: 140px;
+}
+
+
+.dotc1 i{
+    padding-left: 4px;
+    padding-top: 5px;
+}
+.dotc2{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(245, 255, 255);
+    position: absolute;
+    left: 398px;
+    top: 170px;
+}
+.dotc2 i{
+    padding-top: 5px;
+    padding-left: 3px;
+}
+.dotc3{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(245, 255, 255);
+    position: absolute;
+    left: 398px;
+    top: 200px;  
+}
+.dotc3 i{
+    padding-top: 5px;
+    padding-left: 8px;
+}
+
+.circle15{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgb(128, 128, 128);
+    position: absolute;
+    left: 395px;
+    top: 508px;
+    font-size: 10px;
+}
+.circle15 p{
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+.imgdash{
+    width: 300px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.fontawsome{
+    margin-top: 15px;
+    padding-left: 25px;
+    display: inline-block;
+    color: rgb(223, 223, 0);
+}
+.span1{
+    display: inline-block;
+    padding-left: 10px;
+}
+.product__dashbord h4{
+    padding-left: 25px;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.product__dashbord h2{
+    padding-left: 25px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    display: inline-block;
+}
+.dashpera{
+    padding-left: 25px;
+    text-transform: capitalize;
+    padding-top: 10px; 
+    text-decoration: line-through; 
+    display: inline-block;
+}
+.dashstock{
+    margin-left: 25px;
+    text-decoration: none;
+    margin-top: 20px;
+    text-transform: capitalize;
+    display: inline-block;
+}
+.dashsold{
+    margin-left: 105px;
+    text-decoration: none;
+    margin-top: 20px;
+    text-transform: capitalize;
+    display: inline-block;
+}
+.stick{
+    margin-left: 25px;
+    border-radius: 5px;
+    width: 300px;
+    height: 4px;
+    display: inline-block;
+    background: rgb(0,102,178);
+    background: linear-gradient(90deg, rgba(0,102,178,1) 30%, rgba(208,208,208,1) 30%);
+}
+
+
+.something{
+    display: flex;
+    margin-top: 110px;
+    justify-content: space-between;
+    position: relative;
+}
+.round{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(129, 45, 224);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    top: -1px;
+}
+.someone1 h3{
+    text-transform: capitalize;
+    padding-left: 140px;
+}
+.someone2{
+    margin-right: 140px;
+}
+.someone2 p{
+    display: inline-block;
+    text-transform: capitalize;
+}
+.someone2 i{
+    padding-left: 10px;
+}
+.some5{
+    margin-top: 10px;
+    width: 1150px;
+    margin-left: 100px;
+}
+
+
+/*------------------------------------ product------------------------------*/
+
+.product__colum{
+    display: flex;
+    position: relative;
+}
+.product__colum>*{
+    flex: 1;
+}
+
+/* 1st flex step product*/
+.card__level1{
+    display: flex;
+}
+.card__level2{
+    display: flex;
+}
+.card__level3{
+    display: flex;
+}
+
+.card__level4{
+    display: flex;
+}
+
+/* 2nd flex step product*/
+.level__mini10{
+    display: flex;
+}
+.level__mini11{
+    display: flex;
+}
+.level__mini12{
+    display: flex;
+}
+.level__mini13{
+    display: flex;
+}
+
+
+/* card */
+.card__level1{
+    margin-top: 30px;
+}
+.columimg1st{
+    width: 120px;
+    height: 150px;
+}
+.fontlevel1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 246, 246,.5);
+    position: absolute;
+    left: 98px;
+}
+.fontlevel1 i{
+    padding-left: 2px;
+    padding-top: 3px;
+}
+.circlelevel1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 246, 246,.5);
+    position: absolute;
+    left: 98px;
+    top: 158px;
+}
+.circlelevel1 p{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+.card__4a{
+    margin-left: 10px;
+}
+.card__4a h4{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.fontawsome2{
+    padding-top: 10px;
+    display: inline-block;
+    color: rgb(223, 223, 0);
+}
+.cardpara{
+    display: inline-block;
+    margin-left: 5px;
+}
+.card__4a h2{
+    padding-top: 10px;
+    display: inline-block;
+}.cardpara__1a{
+    display: inline-block;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+.cardpara__1b{
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+
+.card__level2{
+    margin-top: 30px;
+}
+.columimg2nd{
+    width: 120px;
+    height: 150px;
+}
+.fontlevel2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 246, 246,.5);
+    position: absolute;
+    left: 98px;
+    top: 258;
+}
+.fontlevel2 i{
+    padding-left: 2px;
+    padding-top: 3px;
+}
+.circlelevel2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 246, 246,.5);
+    position: absolute;
+    left: 98px;
+    top: 340px;
+}
+.circlelevel2 p{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+.card__4b{
+    margin-left: 10px;
+}
+.card__4b h4{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.fontawsome3{
+    padding-top: 10px;
+    color: rgb(223, 223, 0);
+    display: inline-block;
+    margin-top: 5px;
+}
+.card__2a{
+    text-decoration: none;
+    margin-left: 5px;
+    display: inline;
+}
+.card__4b h2{
+    text-transform: capitalize;
+    margin-top: 10px;
+    display: inline-block;
+}
+.card__2b{
+    display: inline;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+.card__2c{
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+.card__2d{
+    
+    text-transform: capitalize;
+    color: black;
+}
+
+
+.card__level3{
+    margin-top: 30px;
+}
+.columimg3rd{
+    width: 120px;
+    height: 150px;
+}
+.fontlevel3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 246, 246,.5);
+    position: absolute;
+    left: 98px;
+    top: 470;
+}
+.fontlevel3 i{
+    padding-left: 2px;
+    padding-top: 3px;
+}
+.circlelevel3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 246, 246,.5);
+    position: absolute;
+    left: 98px;
+    top: 525px;
+}
+.circlelevel3 p{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+.card__4c{
+    margin-left: 10px;
+}
+.card__4c h4{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.fontawsome4{
+    padding-top: 10px;
+    color: rgb(223, 223, 0);
+    display: inline-block;
+    margin-top: 5px;
+}
+.card__3a{
+    text-decoration: none;
+    margin-left: 5px;
+    display: inline;
+}
+.card__4c h2{
+    text-transform: capitalize;
+    margin-top: 10px;
+    display: inline-block;
+}
+.card__3b{
+    display: inline;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+.card__3c{
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+
+
+.card__level4{
+    margin-top: 30px;
+}
+.columimg4th{
+    width: 120px;
+    height: 150px;
+}
+.fontlevel4{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 246, 246,.5);
+    position: absolute;
+    left: 98px;
+    top: 570;
+}
+.fontlevel4 i{
+    padding-left: 2px;
+    padding-top: 3px;
+}
+.circlelevel4{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 246, 246,.5);
+    position: absolute;
+    left: 98px;
+    top: 710px;
+}
+.circlelevel4 p{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+.card__4d{
+    margin-left: 10px;
+}
+.card__4d h4{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.fontawsome5{
+    padding-top: 10px;
+    display: inline-block;
+    color: rgb(223, 223, 0);
+}
+.cardpara{
+    display: inline-block;
+    margin-left: 5px;
+}
+.card__4d h2{
+    margin-top: 10px;
+    display: inline-block;
+}.cardpara__4a{
+    display: inline-block;
+    margin-left: 5px;
+}
+.cardpara__4b{
+    text-transform: capitalize;
+    display: inline;
+    margin-left: 5px;
+    text-decoration: line-through;
+}
+.cardpara__4c{
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+/* product 2nd colum*/
+.chield__colum{
+    margin-right: 50px;
+}
+.chield__mini {
+    margin-right: 80px;
+    margin-top: 30px;
+}
+.aprelimg1{
+    width: 120px;
+    height: 150px;
+}
+.fontlevel10{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 246, 246,.5);
+    position: absolute;
+    right: 315px;
+}
+.fontlevel10 i{
+    padding-left: 2px;
+    padding-top: 3px;
+}
+.circlelevel10{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(255, 181, 181, 0.5);
+    position: absolute;
+    right: 315px;
+    top: 160px;
+}
+.circlelevel10 p{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+.card__next1{
+    margin-left: 10px;
+}
+.card__next1 h4{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.fontawsome10a{
+    padding-top: 10px;
+    display: inline-block;
+    color: rgb(223, 223, 0);
+}
+.Card__nexta{
+    display: inline;
+    margin-left: 5px;
+}
+.card__next1 h2{
+    margin-top: 10px;
+    display: inline-block;
+}
+.card__nextb{
+    display: inline;
+    margin-left: 5px;
+    text-decoration: line-through;
+}
+.card__nextc{
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+
+
+.level__mini11{
+    margin-top: 30px;
+}
+.aprelimg2{
+    width: 120px;
+    height: 150px;
+}
+.fontlevel11{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(255, 174, 174, 0.5);
+    position: absolute;
+    right: 315px;
+    top: 215px;
+}
+.fontlevel11 i{
+    padding-left: 2px;
+    padding-top: 3px;
+}
+.circlelevel11{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(255, 181, 181, 0.5);
+    position: absolute;
+    right: 315px;
+    top: 342px;
+}
+.circlelevel11 p{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+.card__next2{
+    margin-left: 10px;
+}
+.card__next2 h4{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.fontawsome10b{
+    padding-top: 10px;
+    display: inline-block;
+    color: rgb(223, 223, 0);
+}
+.card__next2a{
+    display: inline;
+    margin-left: 5px;
+}
+.card__next2 h2{
+    margin-top: 10px;
+    display: inline-block;
+}
+.card__next2b{
+    display: inline;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+.card__next2c{
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+.level__mini12{
+    margin-top: 30px;
+}
+.aprelimg3{
+    width: 120px;
+    height: 150px;
+}
+.fontlevel12{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(255, 248, 248, 0.5);
+    position: absolute;
+    right: 315px;
+    top: 400px;
+}
+.fontlevel12 i{
+    padding-left: 2px;
+    padding-top: 3px;
+}
+.circlelevel12{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(255, 247, 247, 0.5);
+    position: absolute;
+    right: 315px;
+    top: 525px;
+}
+.circlelevel12 p{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+.card__next3{
+    margin-left: 10px;
+}
+.card__next3 h4{
+    text-transform: capitalize;
+}
+.fontawsome10c{
+    padding-top: 10px;
+    display: inline-block;
+    color: rgb(223, 223, 0);
+}
+.card__next3a{
+    display: inline;
+    margin-left: 5px;
+}
+.card__next3 h2{
+    margin-top: 10px;
+    display: inline-block;
+}
+.card__next3b{
+    display: inline;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+.card__next3c{
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+
+.level__mini13{
+    margin-top: 30px;
+}
+.card__next4{
+    margin-left: 10px;
+}
+.card__next4 h4{
+    text-transform: capitalize;
+}
+
+.aprelimg4{
+    width: 120px;
+    height: 150px;
+}
+.fontlevel13{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(255, 248, 248, 0.5);
+    position: absolute;
+    right: 315px;
+    top: 575px;
+}
+.fontlevel13 i{
+    padding-left: 2px;
+    padding-top: 3px;
+}
+.circlelevel13{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(255, 247, 247, 0.5);
+    position: absolute;
+    right: 315px;
+    top: 710px;
+}
+.circlelevel13 p{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+.fontawsome10d{
+    padding-top: 10px;
+    display: inline-block;
+    color: rgb(223, 223, 0);
+}
+.card__next4a{
+    display: inline;
+    margin-left: 5px;
+}
+.card__next4 h2{
+    margin-top: 10px;
+    display: inline-block;
+}
+.card__next4b{
+    display: inline;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+.card__next4c{
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+
+/*------------------------------------------new step--------------------------------*/
+
+.cloth__card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.card__step1{
+    margin-left: 100px;
+}
+.card__step1 img{
+    width: 200px;
+    height: 280px;
+    display: block;
+}
+.fontawsome30a{
+    margin-top: 10px;
+    display: inline-block;
+    color: rgb(223, 223, 0);
+}
+.card__bot1a{
+    display: inline-block;
+    margin-left: 10px;
+}
+.card__step1 h4{
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+.card__step1 h2{
+    display: inline-block;
+    margin-top: 10px;
+}
+.card__bot1b{
+    display: inline;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+
+.card__step2 img{
+    width: 200px;
+    height: 280px;
+    display: block;
+}
+.fontawsome30b{
+    margin-top: 10px;
+    display: inline-block;
+    color: rgb(223, 223, 0);
+}
+.card__bot2a{
+    display: inline-block;
+    margin-left: 10px;
+}
+.card__step2 h4{
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+.card__step2 h2{
+    display: inline-block;
+    margin-top: 10px;
+}
+.card__bot2b{
+    display: inline;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+
+.card__step3 img{
+    width: 200px;
+    height: 280px;
+    display: block;
+}
+.fontawsome30c{
+    margin-top: 10px;
+    display: inline-block;
+    color: rgb(223, 223, 0);
+}
+.card__bot3a{
+    display: inline-block;
+    margin-left: 10px;
+}
+.card__step3 h4{
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+.card__step3 h2{
+    display: inline-block;
+    margin-top: 10px;
+}
+.card__bot3b{
+    display: inline;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+
+.card__step4{
+    margin-right: 100px;
+}
+.card__step4 img{
+    width: 200px;
+    height: 280px;
+    display: block;
+}
+.fontawsome30d{
+    margin-top: 10px;
+    display: inline-block;
+    color: rgb(223, 223, 0);
+}
+.card__bot4a{
+    display: inline-block;
+    margin-left: 10px;
+}
+.card__step4 h4{
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+.card__step4 h2{
+    display: inline-block;
+    margin-top: 10px;
+}
+.card__bot4b{
+    display: inline;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+
+
+.shoe__card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.card__step10{
+    margin-left: 100px;
+}
+.card__step10 img{
+    width: 200px;
+    height: 280px;
+    display: block;
+}
+.fontawsome20a{
+    margin-top: 10px;
+    display: inline-block;
+    color: rgb(223, 223, 0);
+}
+.card__pro1a{
+    display: inline-block;
+    margin-left: 10px;
+}
+.card__step10 h4{
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+.card__step10 h2{
+    display: inline-block;
+    margin-top: 10px;
+}
+.card__pro1b{
+    display: inline;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+
+.card__step11 img{
+    width: 200px;
+    height: 280px;
+    display: block;
+}
+.fontawsome20b{
+    margin-top: 10px;
+    display: inline-block;
+    color: rgb(223, 223, 0);
+}
+.card__pro4a{
+    display: inline-block;
+    margin-left: 10px;
+}
+.card__step11 h4{
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+.card__step11 h2{
+    display: inline-block;
+    margin-top: 10px;
+}
+.card__pro4b{
+    display: inline;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+
+.card__step12 img{
+    width: 200px;
+    height: 280px;
+    display: block;
+}
+.fontawsome20c{
+    margin-top: 10px;
+    display: inline-block;
+    color: rgb(223, 223, 0);
+}
+.card__pro5a{
+    display: inline-block;
+    margin-left: 10px;
+}
+.card__step12 h4{
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+.card__step12 h2{
+    display: inline-block;
+    margin-top: 10px;
+}
+.card__pro5b{
+    display: inline;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+
+.card__step13{
+    margin-right: 100px;
+}
+.card__step13 img{
+    width: 200px;
+    height: 280px;
+    display: block;
+}
+.fontawsome20d{
+    margin-top: 10px;
+    display: inline-block;
+    color: rgb(223, 223, 0);
+}
+.card__pro10a{
+    display: inline-block;
+    margin-left: 10px;
+}
+.card__step13 h4{
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+.card__step13 h2{
+    display: inline-block;
+    margin-top: 10px;
+}
+.card__pro10b{
+    display: inline;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+/*-------------------------------------- next step---------------------------*/
+.onlyimage{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    position: relative;
+}
+.only1{
+    margin-left: 350px;
+}
+.only1 img{
+    width: 300px;
+    height: 200px;
+}
+.sale1{
+    width: 250px;
+    height: 200px; 
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+.sale1 h4{
+    padding-top: 30px;
+    padding-left: 30px;
+    text-transform: capitalize;
+}
+.sale1 h3{
+    padding-top: 20px;
+    padding-left: 30px;
+    text-transform: capitalize;
+    color: rgb(174, 130, 216);
+}
+.sale1 h2{
+    padding-top: 5px;
+    padding-left: 30px;
+    text-transform: capitalize;
+}
+.sale1 button{
+    margin-left: 30px;
+    margin-top: 20px;
+    border: none;
+    padding: 8px 20px;
+    background-color: #fd5c63;
+    border-radius: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.only2{
+    margin-right: 100px;
+}
+.only2 img{
+    width: 300px;
+    height: 200px;
+}
+.sale2{
+    width: 250px;
+    height: 200px; 
+    background-color: #e5e8ed;
+    position: absolute;
+    top: 0px;
+    right: 400px;
+}
+.sale2 h4{
+    padding-top: 30px;
+    padding-left: 30px;
+    text-transform: capitalize;
+}
+.sale2 h3{
+    padding-top: 20px;
+    padding-left: 30px;
+    text-transform: capitalize;
+    color: rgb(174, 130, 216);
+}
+.sale2 h2{
+    padding-top: 5px;
+    padding-left: 30px;
+    text-transform: capitalize;
+}
+.sale2 button{
+    margin-left: 30px;
+    margin-top: 20px;
+    border: none;
+    padding: 8px 20px;
+    background-color: #fd5c63;
+    border-radius: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+
+/*--------------------------------------- step next-------------------------------*/
+
+.div__3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.clock__1{
+    width: 340px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: 100px;
+}
+.beauty__img img{
+    width: 140px;
+    height: 240px;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.beauty__text h4{
+    padding-left: 20px;
+    padding-top: 30px;
+    text-transform: capitalize;
+}
+.beauty__text ul{
+    list-style: none;
+    margin-left: 10px;
+}
+.beauty__text ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 10px;
+    color: black;
+}
+.ankorbeauty{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    color: black;
+}
+
+.clock__2{
+    width: 340px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.gatedates__img img{
+    width: 140px;
+    height: 240px;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.gatedates__text h4{
+    padding-left: 20px;
+    padding-top: 30px;
+    text-transform: capitalize;
+}
+.gatedates__text ul{
+    list-style: none;
+    margin-left: 10px;
+}
+.gatedates__text ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 10px;
+    color: black;
+}
+.ankorgatedates{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    color: black;
+}
+
+
+.clock__3{
+    width: 340px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-right: 100px;
+    border-radius: 5px;
+}
+.decor__img img{
+    width: 140px;
+    height: 240px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.decor__text h4{
+    padding-left: 20px;
+    padding-top: 30px;
+    text-transform: capitalize;
+}
+.decor__text ul{
+    list-style: none;
+    margin-left: 10px;
+}
+.decor__text ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 10px;
+    color: black;
+}
+.ankordecor{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    color: black;
+}
+
+/*------------------------------------------------   small       ---------------------------------------*/
+
+.small1{
+    display: flex;
+    margin-top: 30px;
+    background-color: rgb(18, 4, 39);
+    height: 100px;
+    position: relative;
+}
+.small1>*{
+    flex: 1;
+}
+.small2{
+    padding-left: 100px;
+    padding-top: 30px;
+}
+.small2 h4{
+    color: #ffff;
+    text-transform: capitalize;
+}
+.small2 p{
+    padding-top: 10px;
+    color: #ffff;
+}
+.small3 a{
+    margin-right: 100px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    background-color: #fd5c63;
+    padding: 9px;
+    border-radius: 0px 5px 5px 0px;
+}
+.searchsm{
+    padding: 10px 100px;
+    text-transform: capitalize;
+    margin-top: 35px;
+    border: none;
+    margin-right: -4px;
+    border-radius: 5px 0px 0px 5px;
+}
+.smallfont i{
+    position: absolute;
+    top: 45px;
+    left: 740px;
+
+}
+
+/*-------------------------  footer -------------------*/
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.footer__sec1{
+    margin-left: 90px;
+}
+.footer__sec1 h4{
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+.footer__sec1 ul{
+    list-style: none;
+}
+.footer__sec1 ul a{
+    text-decoration: none;
+    padding: 10px;
+    text-transform: capitalize;
+    display: inline-block;
+    color: black;
+}
+
+
+.footer__sec2 h4{
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+.footer__sec2 ul{
+    list-style: none;
+}
+.footer__sec2 ul a{
+    text-decoration: none;
+    padding: 10px;
+    text-transform: capitalize;
+    display: inline-block;
+    color: black;
+}
+
+
+.footer__sec3 h4{
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+.footer__sec3 ul{
+    list-style: none;
+}
+.footer__sec3 ul a{
+    text-decoration: none;
+    padding: 10px;
+    text-transform: capitalize;
+    display: inline-block;
+    color: black;
+}
+
+.footer__sec4{
+    margin-right: 90px;
+}
+.footer__sec4 h4{
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+.footer__sec4 ul{
+    list-style: none;
+}
+.footer__sec4 ul a{
+    text-decoration: none;
+    padding: 10px;
+    text-transform: capitalize;
+    display: inline-block;
+    color: black;
+}
+
+/*--------------------------------- last --------------------------*/
+
+.last{
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+.last h3{
+    text-transform: capitalize;
+}
+.last p{
+    padding-top: 15px;
+    color: darkgray;
+}
+.twiter{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(217, 255, 242);
+    display: inline-block;
+    margin-top: 20px;
+}
+.twiter i{
+    padding-top: 7px;
+    text-align: center;
+}
+.meta{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(213, 255, 241);
+    display: inline-block;
+}
+.meta i{
+    text-align: center;
+    padding-top: 7px;
+} 
+.instagram{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(204, 255, 238);
+    display: inline-block;
+}
+.instagram i{
+    text-align: center;
+    padding-top: 7px;
+}
+.in{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(218, 255, 243);
+    display: inline-block;
+    margin-top: 20px;
+}
+.in i{
+    text-align: center;
+    padding-top: 7px;
+}
+.youtube{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(209, 255, 240);
+    display: inline-block;
+    margin-top: 20px;
+}
+.youtube i{
+    text-align: center;
+    padding-top: 7px;
+}
+.lastcircle{
+    position: absolute;
+    top: -7px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    display: inline-block;
+    left: 638px;
+}
+.lastcircle1{
+    position: absolute;
+    top: 13px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    left: 645px;
+}
+
+
+
+/*7777777777777777777777777777777777 sub menu  444444444444444444444444444444444444444444*/
+
+.sub__menu{
+    display: flex;
+    position: absolute;
+    width: 1350px;
+    height: 450px;
+    background-color: rgb(218, 255, 243);
+    left: 0;
+    justify-content: space-between;
+    z-index: 1;
+    top: 80px;
+    visibility: hidden;
+}
+
+.order li:hover .sub__menu{
+    visibility: visible;
+}
+.sub__menuimg {
+    margin-right: 110px;
+}
+.most{
+    position: absolute;
+    text-transform: capitalize;
+    top: 180px;
+    color: blueviolet;
+    right: 140px;
+}
+.ordernow{
+    position: absolute;
+    top: 220px;
+    right: 190px;
+    border: none;
+    background-color: #fd5c63;
+    color: white;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.wanted{
+    width: 250px;
+    height: 350px;
+    margin-top: 30px;
+}
+.wanted:hover{
+        transform: scale(.950);
+     }
+.sub__menu1 h4{
+    text-transform: capitalize;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.sub__menu1{
+    margin-left: 35px;
+}
+.sub__menu1 ul {
+    list-style: none;
+}
+.sub__menu1 ul li {
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.sub__menu2 h4{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.sub__menu2 ul{
+    list-style: none;
+}
+.sub__menu2 ul li {
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.sub__menu3 h4{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.sub__menu3 ul{
+    list-style: none;
+}
+.sub__menu3 ul li {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.sub__menu4 h4{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.sub__menu4 ul{
+    list-style: none;
+}
+.sub__menu4 ul li {
+    text-decoration: none;
+    padding: 10px;
+}
+.ankornike{
+    margin-left: 10px;
+    display: inline-block;
+}
+.ankornike i{
+    padding-left: 10px;
+}
